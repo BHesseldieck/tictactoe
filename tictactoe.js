@@ -13,4 +13,34 @@ function printBoard() {
   ${board[2][0]} | ${board[2][1]} | ${board[2][0]} \n`)
 }
 
-printBoard();
+function checkWin(mark) {
+  // horizontal win
+  board.forEach((row) => {
+    var markCount = row.reduce((acc, val) => {
+      if (val === mark) {
+        acc++;
+      }
+      return acc;
+    }, 0)
+    if (markCount === 3) {
+      return true;
+    }
+  })
+  // vertical win
+  for (var i = 0; i < board.length; i++) {
+    if (board[0][i] === mark && board[1][i] === mark && board[2][i] === mark) {
+      return true
+    }
+  }
+  // diagonal win
+  if (board[0][0] === mark && board[1][1] === mark && board[2][2] === mark || 
+      board[0][2] === mark && board[1][1] === mark && board[2][0] === mark) {
+    return true;
+  }
+  return false;
+}
+
+
+
+
+
