@@ -1,0 +1,25 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "small command line game",
+  "main": "tictactoe.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BHesseldieck/tictactoe.git"
+  },
+  "keywords": [
+    "tictactoe"
+  ],
+  "author": "BHesseldieck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BHesseldieck/tictactoe/issues"
+  },
+  "homepage": "https://github.com/BHesseldieck/tictactoe#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
