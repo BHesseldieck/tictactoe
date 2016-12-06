@@ -2,10 +2,6 @@ const prompt = require('prompt');
 
 var board = [[' ',' ',' '],[' ',' ',' '],[' ',' ',' ']];
 
-function setMark(posH, posV,mark){
-  board[posV][posH] = mark;
-}
-
 function printBoard() {
   console.log(`Game Board: \n
   ${board[0][0]} | ${board[0][1]} | ${board[0][2]} \n
@@ -99,6 +95,3 @@ function startGame () {
 }
 
 startGame();
-
-
-
