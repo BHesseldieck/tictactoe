@@ -10,10 +10,9 @@ simple commandline tic tac toe game
 4. Have fun!
 
 Hint: Numbering of rows and lines are zero indexed meaning the board looks like this:
-<br/><span> 0 1 2</span>
-<br/>0
-<br/>1
-<br/>2
+<br/>(0,0)(0,1)(0,2)
+<br/>(1,0)(1,1)(1,2)
+<br/>(2,0)(2,1)(2,2)
 
 ## Requirements
 - Node 6.6.x
