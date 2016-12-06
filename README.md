@@ -10,7 +10,7 @@ simple commandline tic tac toe game
 4. Have fun!
 
 Hint: Numbering of rows and lines are zero indexed meaning the board looks like this:
-<br/>0 1 2
+<br/><span> 0 1 2</span>
 <br/>0
 <br/>1
 <br/>2
